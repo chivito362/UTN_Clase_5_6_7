@@ -13,7 +13,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-
 public class Contrato implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.SEQUENCE)
